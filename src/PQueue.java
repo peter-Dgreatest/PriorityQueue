@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class PQueue {
     private int[] arr;
@@ -8,6 +9,7 @@ public class PQueue {
 
 
     public String toString(){
+        HashMap<Integer,Integer> sd;
         return Arrays.toString(this.arr);
     }
 
